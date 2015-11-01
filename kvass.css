@@ -1,0 +1,19 @@
+/* WIP buttons */
+#Kbutton
+{
+  width: 200px;
+  height: 50px;
+  background-color:#E0E0E0;
+  color: #BDBDBD;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  line-height: 50px;
+  box-shadow: 0.5px 5px 1px #BDBDBD;
+  display: inline-block;
+}
+#Kbutton:hover
+{
+  background-color:#C8C8C8;
+  box-shadow: 0.5px 5px 1px #A9A9A9;
+}
