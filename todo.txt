@@ -1,0 +1,19 @@
+@ - done
+x - not done
+# - in progress
+
+TO DO:
+
+x add in depth README.md file
+x make github wiki
+x make github organization page
+@ add buttons
+@ add containers
+# add input field
+x make everything look nice and resize nice on mobile
+x add radio-buttons
+x add menu-bar
+x add fonts
+x make website demo
+
+//last edited 1-11-2015
