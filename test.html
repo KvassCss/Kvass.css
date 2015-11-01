@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <link rel="stylesheet" type="text/css" href="kvass.css">
 <body>
 
-<div id="Kbutton">
+<div class="Kbutton" id="clickabelButton">
 test
 </div>
-<div id="Kbutton">
+<div class="Kbutton">
 test2
 </div>
+<script>
+var test = document.getElementById("clickabelButton");
 
+function whatClicked() {
+    alert("clicked!");
+}
+test.addEventListener("click", whatClicked);
+
+</script>
 </body>
 </html>
