@@ -1,0 +1,15 @@
+/* stuff made by OoglyBooglyBoo  *
+ * will merge with kvass.css     */
+
+#smallcontainer {                                       /* DONE */
+  width : 300px;
+  height : auto;
+  color: #01579B;
+  background-color: #81D4FA;
+  box-shadow: 0.5px 5px 2px #4FC3F7;
+  border-radius: 7px;
+  padding: 10px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
