@@ -18,3 +18,15 @@
   background-color:#C8C8C8;
   box-shadow: 0.5px 5px 1px #A9A9A9;
 }
+
+/* WIP input field */
+.k_input
+{
+  border: 3px solid #BDBDBD;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+  height: 1.5em;
+  font-size: 1.5em;
+  box-shadow: 0.5px 2px 2px #A9A9A9;
+
+}
