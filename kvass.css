@@ -1,5 +1,5 @@
 /* WIP buttons */
-#Kbutton
+.Kbutton
 {
   width: 200px;
   height: 50px;
@@ -11,8 +11,9 @@
   line-height: 50px;
   box-shadow: 0.5px 5px 1px #BDBDBD;
   display: inline-block;
+  -webkit-transition:0.2s;
 }
-#Kbutton:hover
+.Kbutton:hover
 {
   background-color:#C8C8C8;
   box-shadow: 0.5px 5px 1px #A9A9A9;
