@@ -1,8 +1,10 @@
-/* WIP buttons */
+/* stuff made by AlexaCol  */
+
+/* DONE buttons */
 .k_button
 {
-  width: 200px;
-  height: 50px;
+  width: 12.500em;
+  height: 3.125em;
   background-color:#E0E0E0;
   color: #BDBDBD;
   text-align: center;
@@ -19,14 +21,98 @@
   box-shadow: 0.5px 5px 1px #A9A9A9;
 }
 
-/* WIP input field */
+/* DONE input field */
 .k_input
 {
-  border: 3px solid #BDBDBD;
+  border: 2px solid #BDBDBD;
   border-radius: 5px;
   background-color: #F5F5F5;
   height: 1.5em;
   font-size: 1.5em;
   box-shadow: 0.5px 2px 2px #A9A9A9;
+
+}
+
+/* stuff made by OoglyBooglyBoo  */
+
+.k_smallcontainer {                                       /* DONE */
+    width : 300px;
+    height : auto;
+    color: #01579B;
+    background-color: #81D4FA;
+    box-shadow: 0.5px 5px 2px #4FC3F7;
+    border-radius: 7px;
+    padding: 10px;
+    /*display: inline-block;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin : 6px;
+}
+
+.k_container {                                         /* DONE */
+    height : auto;
+    color: #01579B;
+    background-color: #81D4FA;
+    box-shadow: 0.5px 5px 2px #4FC3F7;
+    border-radius: 7px;
+    padding: 10px;
+    /*display: inline-block;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin : 6px;
+}
+
+.k_bigcontainer {                                       /* DONE */
+    width : 600px;
+    height : auto;
+    color: #01579B;
+    background-color: #81D4FA;
+    box-shadow: 0.5px 5px 2px #4FC3F7;
+    border-radius: 7px;
+    padding: 10px;
+    /*display: inline-block;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin : 6px;
+}
+
+/* MOBILE resizing  WIP AS HELL*/
+@media screen and (max-width: 420px) {
+body
+{
+  font-size: 125%;
+}
+
+.k_button
+{
+  line-height: 65px;
+  width: auto;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.k_input
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  margin: auto;
+}
+.k_smallcontainer
+{
+  width: auto;
+  display: table;
+  margin: auto;
+}
+.k_container
+{
+  display: table;
+  margin: auto;
+  width: auto;
+}
+.k_bigcontainer
+{
+  width: auto;
+}
 
 }
